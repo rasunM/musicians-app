@@ -1,0 +1,65 @@
+.card {
+    position: relative;
+    background: white;
+    padding: 10px;
+    margin-bottom: 170px;
+    margin-right: 40px;
+    z-index: 1; 
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.image{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cardText{
+    position: absolute;
+    top: 234px;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: linear-gradient(to bottom right, #29aaaa, #1380ac);
+    text-align: center;
+}
+
+.button{
+    margin-top: 15px;
+    background-color: #135e5e;
+    border: none;
+    color: white;
+    padding: 13px;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+
+.instrumentSubText{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.instrumentName{
+    padding-top: 17px;
+}
+
+.card:hover{
+    transform: scale(1.07);
+    box-shadow: 40px 0 100px #29aaaa, -40px 0 100px #1381ac69; 
+}
+.button:hover{
+    transform: scale(1.35);
+    transition: transform 0.3s ease
+}

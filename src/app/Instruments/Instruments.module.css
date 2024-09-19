@@ -1,0 +1,23 @@
+
+.instrumentPage{
+    color: #f0f0f0;
+}
+.heading{
+    color: #29aaaa;
+    font-size: 70px;   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.subheading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 50px;
+}
