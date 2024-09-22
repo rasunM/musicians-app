@@ -1,21 +1,23 @@
 import instrumentCardStyle from './InstrumentCard.module.css';
 
 
-export default function InstrumentCard({argImg}) {
+export default function InstrumentCard({argImg, title, description, showButton=true, action}) {
   return (
-    <div className={instrumentCardStyle.card}>
-        <img src={argImg} className={instrumentCardStyle.image}/>
-        <div className={instrumentCardStyle.cardText}>
-            <h3 className={instrumentCardStyle.instrumentName}>
-              Instrument
-            </h3>
-            <p className={instrumentCardStyle.instrumentSubText}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptate!
-            </p>
-            <button className={instrumentCardStyle.button}>
-              See more
-            </button>
+      <div className={instrumentCardStyle.cardBorder} style={{paddingBottom: !showButton ? '104px' : ''}}>
+        <div className={instrumentCardStyle.card}>
+          <img src={argImg} className={instrumentCardStyle.image}/>
+          <div className={instrumentCardStyle.cardText} style={{height: showButton ? '60%' : '40%'}}>
+              <h3 className={instrumentCardStyle.instrumentName}>
+                {title}
+              </h3>
+              <p className={instrumentCardStyle.instrumentSubText}>
+                {description}
+              </p>
+              {showButton ? <button className={instrumentCardStyle.button} onClick={action}>
+                See more
+              </button>:<></>} 
+          </div>
         </div>
-    </div>
+      </div>
   )
 }
