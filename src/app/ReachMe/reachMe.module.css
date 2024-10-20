@@ -1,0 +1,55 @@
+
+
+.socialLinks{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 550px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.body{
+    background-image: url(https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/452170371_1202162587452644_8195222352050112423_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGgKLKXFQWiYC2zee1UaVtd1m8hgkPUmbPWbyGCQ9SZs5Qg7nXa2HC-BEXyqd9txN1gQJD6oz_vTUfsWeAejoq9&_nc_ohc=9ksVh4rvJ_sQ7kNvgG5Fy9O&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=AdJu8JlX26w2COIFfD-3uFC&oh=00_AYDRzEjDXMoB-_qrZo8GYO5i3sydObMJPNpItp5Vgn7-wg&oe=66F5C0D1);
+    width: 100%;
+    height: 100vh;
+    background-color: #0b0d10e1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    align-items: center;
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    box-shadow: 40px 0 100px #29aaaa, -40px 0 100px #1381ac69; 
+}
+.heading:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.psg{
+    padding: 40px 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading{
+    color: #29aaaa;
+    font-size: 72px;   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+

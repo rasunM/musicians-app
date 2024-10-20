@@ -1,0 +1,74 @@
+.mainComponent{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px #ac9513;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+
+}
+
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.text{
+    display: flex;
+    height: 120px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    position: absolute;
+    top: 250px;
+    background:rgba(27, 27, 27, 0.514);
+   
+}
+
+.heading{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.description{
+    font-size: 12px;
+    margin:0px 20px;
+}
+
+.text:hover{
+    cursor: pointer;
+    display: block;
+    top: 180px;
+    background:rgba(0, 0, 0, 0.534);
+    transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+
+.mainComponent:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+    box-shadow: 40px 0 100px #29aaaa, -40px 0 100px #fdfdfd69; 
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+    
+    font-size: 10px;
+    align-items: center;
+}
+
+.clickHereLink{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+
+}

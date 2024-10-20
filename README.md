@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Musician & Instrument Showcase
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). This web application showcases different genre musicians and their instruments, allowing users to explore a diverse range of music styles.
 
 ## Getting Started
 
@@ -12,13 +14,18 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+
+Installing Dependencies
+This project also uses an external dependency called React Icons. To install it, run:
+npm install react-icons
 
 ## Learn More
 

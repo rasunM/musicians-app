@@ -1,0 +1,40 @@
+.mainFrame {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+}
+
+.wrapHeader {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: 600;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    position: relative; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    border-radius: 10px; /* Moved here for consistency */
+}
+
+.link {
+    font-size: 30px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, #29aaaa, #1380ac);
+    border: none; /* Remove button border */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+.wrapHeader:hover {
+    background-image: linear-gradient(to bottom right, #29aaaa, #1380ac);
+    box-shadow: 40px 0 40px #29aaaa, -40px 0 40px #1381ac69; 
+    z-index: 1; 
+}
+
+.subMainFrame{
+    display: block;
+}
